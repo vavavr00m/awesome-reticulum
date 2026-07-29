@@ -1,4 +1,4 @@
-# Awesome Reticulum
+`# Awesome Reticulum
 
 This is a curated list of projects related to the Reticulum network.  
 The source code of the list is hosted at [github.com/lorien/awesome-reticulum](https://github.com/lorien/awesome-reticulum)  
@@ -55,6 +55,7 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [Quad4-Software / Ren-Browser](https://github.com/Quad4-Software/Ren-Browser) - A modern browser for the Reticulum Network using Reticulum-Go and Micron-Parser-Go.
 * [kc1awv/ lxst_phone](https://github.com/kc1awv/lxst_phone) - A peer-to-peer voice calling application built on the Reticulum Network Stack.
 * [fr33n0w / rBrowser](https://github.com/fr33n0w/rBrowser) - A modern, web-based UI for exploring NomadNet nodes and pages over the Reticulum network.
+* [Micron Nodes Browser / Micron-Navigator](https://sr.ht/~rek2/Micron-Navigator/)
 * [Quad4-Software / MeshChatX](https://github.com/Quad4-Software/MeshChatX) - All-in-one Reticulum client. An extensively modified and feature-rich fork of Reticulum MeshChat.
 * [fr33n0w / lxmf-cli](https://github.com/fr33n0w/lxmf-cli) - Feature-Rich Terminal-based LXMF Messaging Client for Reticulum.
 * [anonmesh / mobile_app](https://github.com/anonmesh/mobile_app/) - anonmesh is a messaging and off-grid transactions over Solana mobile app supported on : iOS / Android.
