@@ -59,7 +59,7 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [fr33n0w / lxmf-cli](https://github.com/fr33n0w/lxmf-cli) - Feature-Rich Terminal-based LXMF Messaging Client for Reticulum.
 * [anonmesh / mobile_app](https://github.com/anonmesh/mobile_app/) - anonmesh is a messaging and off-grid transactions over Solana mobile app supported on : iOS / Android.
 * [Colorado-Mesh / mesh-client](https://github.com/Colorado-Mesh/mesh-client) - Cross-platform desktop client for Reticulum (LXMF), Meshtastic, and MeshCore on macOS, Linux, and Windows.
-* [Micron Nodes Browser / Micron-Navigator](https://git.sr.ht/~rek2/Micron-Navigator) - Terminal TUI browser for NomadNet over Reticulum with vim keybinds.
+* [rek2 / Micron-Navigator](https://git.sr.ht/~rek2/Micron-Navigator) - Terminal TUI browser for NomadNet over Reticulum with vim keybinds.
 *
 ## Transports and Network Interfaces
 
