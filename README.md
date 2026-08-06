@@ -1,4 +1,4 @@
-`# Awesome Reticulum
+# Awesome Reticulum
 
 This is a curated list of projects related to the Reticulum network.  
 The source code of the list is hosted at [github.com/lorien/awesome-reticulum](https://github.com/lorien/awesome-reticulum)  
