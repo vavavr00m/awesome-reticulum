@@ -43,6 +43,7 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 
 * [liberatedsystems / RNode_Firmware_CE](https://github.com/liberatedsystems/RNode_Firmware_CE) - An RNode is an open, free and unrestricted digital radio transceiver. It enables anyone to send and receive any kind of data over both short and very long distances. RNodes can be used with many different kinds of programs and systems, but they are especially well suited for use with Reticulum. The maintained firmware is a fork of the reference firmware: [markqvist / RNode_Firmware](https://github.com/markqvist/RNode_Firmware).
 * [DanBeard / RETCON](https://github.com/DanBeard/RETCON) - RETCON enables quick creation of pre-configured Raspberry Pi images that automatically form resilient mesh networks once deployed.
+* [e2ret / NOEMA-RNSGate-Lite](https://github.com/e2ret/NOEMA-RNSGate-Lite) - A Reticulum mesh gateway combining LoRa (RNode), an LXMF↔MQTT bridge for Home Assistant, I2P tunneling, and a NomadNet node, all managed through a web dashboard without SSH.
 * [strijar / RNS-Gate](https://github.com/strijar/RNS-Gate) - Standalone device for access and routing within the Reticulum Network Stack
 * [gretel / reticulum-openwrt](https://github.com/gretel/reticulum-openwrt) - GitHub workflow for cross-compiling Reticulum Network Stack (RNS) packages for OpenWrt.
 
