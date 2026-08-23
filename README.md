@@ -45,6 +45,7 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [DanBeard / RETCON](https://github.com/DanBeard/RETCON) - RETCON enables quick creation of pre-configured Raspberry Pi images that automatically form resilient mesh networks once deployed.
 * [strijar / RNS-Gate](https://github.com/strijar/RNS-Gate) - Standalone device for access and routing within the Reticulum Network Stack
 * [gretel / reticulum-openwrt](https://github.com/gretel/reticulum-openwrt) - GitHub workflow for cross-compiling Reticulum Network Stack (RNS) packages for OpenWrt.
+* [e2ret / NOEMA-RNSGate-Lite](https://github.com/e2ret/NOEMA-RNSGate-Lite) - A Reticulum mesh gateway combining LoRa (RNode), an LXMF↔MQTT bridge for Home Assistant, I2P tunneling, and a NomadNet node, all managed through a web dashboard without SSH.
 
 ## Messengers and Browsers
 
