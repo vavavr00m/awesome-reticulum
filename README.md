@@ -28,6 +28,7 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [ion232 / reticulum-zig](https://github.com/ion232/reticulum-zig) - An implementation of Reticulum in Zig targeting operating systems and embedded devices.
 * [attermann / microReticulum](https://github.com/attermann/microReticulum) - Port of Reticulum Network Stack to C++ specifically but not exclusively targeting 32-bit and better MCUs.
 * [BeechatNetworkSystemsLtd / Reticulum-rs](https://github.com/BeechatNetworkSystemsLtd/Reticulum-rs) - Reticulum Networking Stack implementation written in Rust.
+* [ratspeak / rsReticulum](https://github.com/ratspeak/rsReticulum) — Another Reticulum Networking Stack implementation written in Rust, interoperable with the reference implementation.
 * [Quad4-Software / Reticulum-Go](https://github.com/Quad4-Software/Reticulum-Go) - A high-performance and secure Go implementation of the Reticulum Network Stack.
 * [sergst83 / reticulum-network-stack](https://github.com/sergst83/reticulum-network-stack) - An implementation of Reticulum network stack in Java.
 * [int32 / reticulum_ex](https://codeberg.org/int32/reticulum_ex) - An implementation of the Reticulum Network Stack in elixir. This implementation is a work in progress and is definitely not ready for day to day use.
@@ -38,20 +39,28 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [markqvist / LXMF](https://github.com/markqvist/LXMF) - A simple and flexible messaging format and delivery protocol that allows a wide variety of implementations, while using as little bandwidth as possible.
 * [markqvist / LXST](https://github.com/markqvist/LXST) - LXST is a simple and flexible real-time streaming format and delivery protocol that allows a wide variety of implementations, while using as little bandwidth as possible.
 * [KC1AV / RRCd](https://github.com/kc1awv/rrcd) - Reticulum Relay Chat (RRC) is a live chat system built on top of the Reticulum Network, similar to IRC.
-
+* [ratspeak / lrgp-rs](https://github.com/ratspeak/lrgp-rs) - Rust implementation of the Lightweight Reticulum Gaming Protocol (LRGP).
+* [ratspeak / lrgp-py](https://github.com/ratspeak/lrgp-py) - Python implementation of the Lightweight Reticulum Gaming Protocol (LRGP).
+* [ratspeak / rsLXST](https://github.com/ratspeak/rsLXST) - Rust implementation of LXST for real-time voice and media streaming over Reticulum, currently focused on interoperable Opus telephony and without complete feature parity with the reference implementation.
+* [ratspeak / rsLXMF](https://github.com/ratspeak/rsLXMF) - Rust implementation of LXMF for Reticulum, interoperable with the reference implementation.
+  
 ## Node Firmware
 
 * [liberatedsystems / RNode_Firmware_CE](https://github.com/liberatedsystems/RNode_Firmware_CE) - An RNode is an open, free and unrestricted digital radio transceiver. It enables anyone to send and receive any kind of data over both short and very long distances. RNodes can be used with many different kinds of programs and systems, but they are especially well suited for use with Reticulum. The maintained firmware is a fork of the reference firmware: [markqvist / RNode_Firmware](https://github.com/markqvist/RNode_Firmware).
 * [DanBeard / RETCON](https://github.com/DanBeard/RETCON) - RETCON enables quick creation of pre-configured Raspberry Pi images that automatically form resilient mesh networks once deployed.
-* [strijar / RNS-Gate](https://github.com/strijar/RNS-Gate) - Standalone device for access and routing within the Reticulum Network Stack
+* [strijar / RNS-Gate](https://github.com/strijar/RNS-Gate) - Standalone device for access and routing within the Reticulum Network Stack.
 * [gretel / reticulum-openwrt](https://github.com/gretel/reticulum-openwrt) - GitHub workflow for cross-compiling Reticulum Network Stack (RNS) packages for OpenWrt.
 * [e2ret / NOEMA-RNSGate-Lite](https://github.com/e2ret/NOEMA-RNSGate-Lite) - A Reticulum mesh gateway combining LoRa (RNode), an LXMF↔MQTT bridge for Home Assistant, I2P tunneling, and a NomadNet node, all managed through a web dashboard without SSH.
+* [ratspeak / rsCardputer](https://github.com/ratspeak/rsCardputer) - Dual-mode Reticulum handheld firmware for the M5Stack Cardputer Adv, providing an on-device Ratspeak/LXMF messenger or a host-controlled RNode LoRa radio over BLE or USB serial.
+* [ratspeak / rsDeck](https://github.com/ratspeak/rsDeck) - Dual-mode Reticulum handheld firmware for the LilyGo T-Deck Plus, providing an on-device Ratspeak/LXMF messenger or a host-controlled RNode LoRa radio over BLE or USB serial, with experimental Wi-Fi bridging.
+* [ratspeak / C6-Reticulum-ASM](https://github.com/ratspeak/C6-Reticulum-ASM) - Experimental pure RV32IMAC assembly firmware for implementing Reticulum on the Adafruit ESP32-C6 Feather, with cryptographic primitives, identity and announce handling, basic transport/link functionality, and an SX1262 LoRa interface foundation.
 
 ## Messengers and Browsers
 
 * [markqvist / NomadNet](https://github.com/markqvist/NomadNet) - Off-grid, resilient mesh communication with strong encryption, forward secrecy and extreme privacy.
 * [markqvist / Sideband](https://github.com/markqvist/Sideband) - Sideband is an extensible LXMF messaging and LXST telephony client, situational awareness tracker and remote control and monitoring system for Android, Linux, macOS and Windows.
 * [liamcottle / reticulum-meshchat](https://github.com/liamcottle/reticulum-meshchat) - A simple mesh network communications app powered by the Reticulum Network Stack.
+* [buildwithparallel / crosstalk](https://github.com/buildwithparallel/crosstalk) - Fork of Reticulum MeshChat with enhanced Reticulum infrastructure visibility, easier interface/network configuration, improved UI and reliability, and native Iridium IMT satellite transport.
 * [torlando-tech / columba](https://github.com/torlando-tech/columba) - A simple messaging app for the Reticulum network on Android using Bluetooth LE over Reticulum.
 * [Quad4-Software / Ren-Browser](https://github.com/Quad4-Software/Ren-Browser) - A modern browser for the Reticulum Network using Reticulum-Go and Micron-Parser-Go.
 * [kc1awv/ lxst_phone](https://github.com/kc1awv/lxst_phone) - A peer-to-peer voice calling application built on the Reticulum Network Stack.
@@ -61,13 +70,15 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [anonmesh / mobile_app](https://github.com/anonmesh/mobile_app/) - anonmesh is a messaging and off-grid transactions over Solana mobile app supported on : iOS / Android.
 * [Colorado-Mesh / mesh-client](https://github.com/Colorado-Mesh/mesh-client) - Cross-platform desktop client for Reticulum (LXMF), Meshtastic, and MeshCore on macOS, Linux, and Windows.
 * [rek2 / Micron-Navigator](https://git.sr.ht/~rek2/Micron-Navigator) - Terminal TUI browser for NomadNet over Reticulum with vim keybinds.
-*
+* [ratspeak / Ratspeak](https://github.com/ratspeak/Ratspeak) - Native cross-platform Reticulum/LXMF client with built-in multiplayer games over the Lightweight Reticulum Gaming Protocol (LRGP).
+* [Qortal / Qortal-Hub](https://github.com/Qortal/Qortal-Hub) - Qortal's desktop client with integrated Reticulum networking for decentralized peer presence, P2P and group voice calls, and encrypted Q-Chat file transfers, with hub-to-hub mesh connectivity.
+  
 ## Transports and Network Interfaces
 
 * [LFManifesto / ReticulumHF](https://github.com/LFManifesto/ReticulumHF) - Encrypted communication over HF radio using the Reticulum Network Stack and FreeDV digital modes.
 * [torlando-tech /  ble-reticulum](https://github.com/torlando-tech/ble-reticulum) - A Bluetooth Low Energy (BLE) interface for Reticulum Network Stack, enabling mesh networking over BLE without additional hardware on Linux devices.
 * [Quad4-Software / RNS-over-HTTP](https://github.com/Quad4-Software/RNS-over-HTTP) - HTTP interface for RNS that tunnels traffic over HTTP/S POST requests.
-* [BeechatNetworkSystemsLtd / rns-tun-rs](https://github.com/BeechatNetworkSystemsLtd/rns-tun-rs) - Reticulum TUN adapter
+* [BeechatNetworkSystemsLtd / rns-tun-rs](https://github.com/BeechatNetworkSystemsLtd/rns-tun-rs) - Reticulum TUN adapter.
 * [BeechatNetworkSystemsLtd / rns-vpn-rs](https://github.com/BeechatNetworkSystemsLtd/rns-vpn-rs) - Library and application for VPN client over Reticulum mesh network.
 * [BeechatNetworkSystemsLtd / rns-mavlink-rs](https://github.com/BeechatNetworkSystemsLtd/rns-mavlink-rs) - Bridges a flight controller connectd via serial port to a QGroundControl ground station over Reticulum mesh network.
 * [RFnexus / reticulum-over-hf](https://github.com/RFnexus/reticulum-over-hf) - Resources on how to configure Reticulum to work over HF radio.
@@ -75,12 +86,12 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [R2AirVlad / Reticulum-Network-Over-Icom-D-star-Transceivers](https://github.com/R2AirVlad/Reticulum-Network-Over-Icom-D-star-Transceivers) - This custom RNS (reticulum.network) interface script enables transmission and reception of LXMF packets (MTU 500 bytes) through GMSK modems in Icom transceivers compatible with the D-star standard.
 * [matvik22000 / rns-over-icmp](https://github.com/matvik22000/rns-over-icmp) - This small script allows using ICMP PING packets as a transport layer for Reticulum. It consists of two parts: a client and a server. The server must have a public IP address (or any other way for the client to ping it).
 * [github.com/markqvist/Reticulum/discussions/1002](https://github.com/markqvist/Reticulum/discussions/1002) - Guide how to run Reticulum over DNS tunnel using Iodine server.
-* [jardous / meshchat](https://github.com/jardous/meshchat) - Two chat console applications. One very simple p2p chat console application over Reticulum. The second can communicate with other LXMF clients (Reticulum MeshChat, Sideband)
+* [jardous / meshchat](https://github.com/jardous/meshchat) - Two chat console applications. One very simple p2p chat console application over Reticulum. The second can communicate with other LXMF clients (Reticulum MeshChat, Sideband).
 * [cubeos-app / MeshSat](https://github.com/cubeos-app/meshsat) - Gateway that carries Reticulum over bearers that cannot normally reach each other, including Meshtastic LoRa, Iridium satellite (RockBLOCK 9603 SBD and 9704 IMT), cellular SMS, AX.25, ZigBee and BLE, with cost-aware path selection so traffic prefers the free bearers. Interoperates with Python RNS. Runs as a Docker container on a Raspberry Pi.
 
 ## Network Tools
 
-* [acehoss / rnsh](https://github.com/acehoss/rnsh) - An utility written in Python that facilitates shell sessions over Reticulum networks. It is based on the rnx utility that ships with Reticulum and aims to provide a similar experience to SSH.
+* [acehoss / rnsh](https://github.com/acehoss/rnsh) - A utility written in Python that facilitates shell sessions over Reticulum networks. It is based on the rnx utility that ships with Reticulum and aims to provide a similar experience to SSH.
 
 ## LXMF Bots
 
@@ -97,6 +108,7 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [AutumnSpark1226 / nomadForum](https://github.com/AutumnSpark1226/nomadForum) - A forum application for the NomadNetwork.
 * [voidw0rks/nomad-pages](https://codeberg.org/voidw0rks/nomad-pages) - A very simple page server for nomadnet, nomadnet-node compatible.
 * [iz0kew / camera-ascii-nomadnet](https://github.com/iz0kew/camera-ascii-nomadnet) - Serves an ONVIF/RTSP camera snapshot as ASCII art on a NomadNet page, with a low-bandwidth mono mode for LoRa interfaces and a Flask web UI for live preview/configuration.
+
 ## Flasher
 
 * [liamcottle / rnode-flasher](https://github.com/liamcottle/rnode-flasher) - A web based firmware flasher for Reticulum / RNode_Firmware.
@@ -120,19 +132,21 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 ## Small Utilities and Code Examples
 
 * [antlas0 / rns_tools](https://github.com/antlas0/rns_tools) - This package provides a small range of RNS tools, driven by my curiosity about Reticulum stack.
-* [SebastianObi / RNS-Tools](https://github.com/SebastianObi/RNS-Tools) - Various small programs and tools which use the Reticulum Network Stack RNS
+* [SebastianObi / RNS-Tools](https://github.com/SebastianObi/RNS-Tools) - Various small programs and tools which use the Reticulum Network Stack RNS.
 * [SebastianObi / LXMF-Tools](https://github.com/SebastianObi/LXMF-Tools) - Various small programs and tools which use the message protocol LXMF.
 * [CyberKiska / lxmf-vanity-address-generator-py](https://github.com/CyberKiska/lxmf-vanity-address-generator-py) - A simple CLI tool to generate LXMF vanity addresses in Reticulum network.
 * [SebastianObi / NomadNet-Pages](https://github.com/SebastianObi/NomadNet-Pages) - Various small example pages/programs for usage with the NomadNet node server or rns_server_page.
 * [reticulum.network/manual/examples.html](https://reticulum.network/manual/examples.html) - Examples of using RNS in official documentation.
+* [ratspeak / ratkey](https://github.com/ratspeak/ratkey) - Hardware-backed Reticulum identity protection using YubiKey PIV, keeping Ed25519 and X25519 private keys on the hardware and providing provisioning, migration, recovery, verification, and testing utilities.
 
 ## Network Infrastructure
 
 * [Reticulum Network Planner](https://github.com/0xSeren/Reticulum-Network-Planner) - Application that computes, based on geographical data, ideal locations for a predefined number of LoRa nodes within a predefined area.
+* [Qortal / qortal](https://github.com/Qortal/qortal) - Decentralized blockchain-secured infrastructure platform providing distributed data storage, web and application hosting, naming, communications, decentralized trading, and Q-Apps, with Reticulum integrated for peer-to-peer communications.
 
 ## Community Discussions
 
 * [rns.recipes](https://rns.recipes/) - Official forum for Reticulum related discussions. Also reachable via NomadNet: `9ce92808be498e9e05590ff27cbfdfe4`.
-* [reticulum.zulipchat.com](https://reticulum.zulipchat.com) - Reticulum discussion on Zulipchat platform
-* [#rns-space:matrix.org](https://matrix.to/#/#rns-space:yatrix.org) - Matrix platform space collecting Reticulum topical discussions
-* [reddit.com/r/reticulum](https://www.reddit.com/r/reticulum/) - Reddit forum about Reticulum network
+* [reticulum.zulipchat.com](https://reticulum.zulipchat.com) - Reticulum discussion on Zulipchat platform.
+* [#rns-space:matrix.org](https://matrix.to/#/#rns-space:yatrix.org) - Matrix platform space collecting Reticulum topical discussions.
+* [reddit.com/r/reticulum](https://www.reddit.com/r/reticulum/) - Reddit forum about Reticulum network.
