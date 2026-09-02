@@ -41,8 +41,6 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [KC1AV / RRCd](https://github.com/kc1awv/rrcd) - Reticulum Relay Chat (RRC) is a live chat system built on top of the Reticulum Network, similar to IRC.
 * [ratspeak / lrgp-rs](https://github.com/ratspeak/lrgp-rs) - Rust implementation of the Lightweight Reticulum Gaming Protocol (LRGP).
 * [ratspeak / lrgp-py](https://github.com/ratspeak/lrgp-py) - Python implementation of the Lightweight Reticulum Gaming Protocol (LRGP).
-* [ratspeak / rsLXST](https://github.com/ratspeak/rsLXST) - Rust implementation of LXST for real-time voice and media streaming over Reticulum, currently focused on interoperable Opus telephony and without complete feature parity with the reference implementation.
-* [ratspeak / rsLXMF](https://github.com/ratspeak/rsLXMF) - Rust implementation of LXMF for Reticulum, interoperable with the reference implementation.
   
 ## Node Firmware
 
@@ -51,16 +49,12 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [strijar / RNS-Gate](https://github.com/strijar/RNS-Gate) - Standalone device for access and routing within the Reticulum Network Stack.
 * [gretel / reticulum-openwrt](https://github.com/gretel/reticulum-openwrt) - GitHub workflow for cross-compiling Reticulum Network Stack (RNS) packages for OpenWrt.
 * [e2ret / NOEMA-RNSGate-Lite](https://github.com/e2ret/NOEMA-RNSGate-Lite) - A Reticulum mesh gateway combining LoRa (RNode), an LXMF↔MQTT bridge for Home Assistant, I2P tunneling, and a NomadNet node, all managed through a web dashboard without SSH.
-* [ratspeak / rsCardputer](https://github.com/ratspeak/rsCardputer) - Dual-mode Reticulum handheld firmware for the M5Stack Cardputer Adv, providing an on-device Ratspeak/LXMF messenger or a host-controlled RNode LoRa radio over BLE or USB serial.
-* [ratspeak / rsDeck](https://github.com/ratspeak/rsDeck) - Dual-mode Reticulum handheld firmware for the LilyGo T-Deck Plus, providing an on-device Ratspeak/LXMF messenger or a host-controlled RNode LoRa radio over BLE or USB serial, with experimental Wi-Fi bridging.
-* [ratspeak / C6-Reticulum-ASM](https://github.com/ratspeak/C6-Reticulum-ASM) - Experimental pure RV32IMAC assembly firmware for implementing Reticulum on the Adafruit ESP32-C6 Feather, with cryptographic primitives, identity and announce handling, basic transport/link functionality, and an SX1262 LoRa interface foundation.
 
 ## Messengers and Browsers
 
 * [markqvist / NomadNet](https://github.com/markqvist/NomadNet) - Off-grid, resilient mesh communication with strong encryption, forward secrecy and extreme privacy.
 * [markqvist / Sideband](https://github.com/markqvist/Sideband) - Sideband is an extensible LXMF messaging and LXST telephony client, situational awareness tracker and remote control and monitoring system for Android, Linux, macOS and Windows.
 * [liamcottle / reticulum-meshchat](https://github.com/liamcottle/reticulum-meshchat) - A simple mesh network communications app powered by the Reticulum Network Stack.
-* [buildwithparallel / crosstalk](https://github.com/buildwithparallel/crosstalk) - Fork of Reticulum MeshChat with enhanced Reticulum infrastructure visibility, easier interface/network configuration, improved UI and reliability, and native Iridium IMT satellite transport.
 * [torlando-tech / columba](https://github.com/torlando-tech/columba) - A simple messaging app for the Reticulum network on Android using Bluetooth LE over Reticulum.
 * [Quad4-Software / Ren-Browser](https://github.com/Quad4-Software/Ren-Browser) - A modern browser for the Reticulum Network using Reticulum-Go and Micron-Parser-Go.
 * [kc1awv/ lxst_phone](https://github.com/kc1awv/lxst_phone) - A peer-to-peer voice calling application built on the Reticulum Network Stack.
@@ -70,8 +64,6 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [anonmesh / mobile_app](https://github.com/anonmesh/mobile_app/) - anonmesh is a messaging and off-grid transactions over Solana mobile app supported on : iOS / Android.
 * [Colorado-Mesh / mesh-client](https://github.com/Colorado-Mesh/mesh-client) - Cross-platform desktop client for Reticulum (LXMF), Meshtastic, and MeshCore on macOS, Linux, and Windows.
 * [rek2 / Micron-Navigator](https://git.sr.ht/~rek2/Micron-Navigator) - Terminal TUI browser for NomadNet over Reticulum with vim keybinds.
-* [ratspeak / Ratspeak](https://github.com/ratspeak/Ratspeak) - Native cross-platform Reticulum/LXMF client with built-in multiplayer games over the Lightweight Reticulum Gaming Protocol (LRGP).
-* [Qortal / Qortal-Hub](https://github.com/Qortal/Qortal-Hub) - Qortal's desktop client with integrated Reticulum networking for decentralized peer presence, P2P and group voice calls, and encrypted Q-Chat file transfers, with hub-to-hub mesh connectivity.
   
 ## Transports and Network Interfaces
 
@@ -137,12 +129,10 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [CyberKiska / lxmf-vanity-address-generator-py](https://github.com/CyberKiska/lxmf-vanity-address-generator-py) - A simple CLI tool to generate LXMF vanity addresses in Reticulum network.
 * [SebastianObi / NomadNet-Pages](https://github.com/SebastianObi/NomadNet-Pages) - Various small example pages/programs for usage with the NomadNet node server or rns_server_page.
 * [reticulum.network/manual/examples.html](https://reticulum.network/manual/examples.html) - Examples of using RNS in official documentation.
-* [ratspeak / ratkey](https://github.com/ratspeak/ratkey) - Hardware-backed Reticulum identity protection using YubiKey PIV, keeping Ed25519 and X25519 private keys on the hardware and providing provisioning, migration, recovery, verification, and testing utilities.
 
 ## Network Infrastructure
 
 * [Reticulum Network Planner](https://github.com/0xSeren/Reticulum-Network-Planner) - Application that computes, based on geographical data, ideal locations for a predefined number of LoRa nodes within a predefined area.
-* [Qortal / qortal](https://github.com/Qortal/qortal) - Decentralized blockchain-secured infrastructure platform providing distributed data storage, web and application hosting, naming, communications, decentralized trading, and Q-Apps, with Reticulum integrated for peer-to-peer communications.
 
 ## Community Discussions
 
