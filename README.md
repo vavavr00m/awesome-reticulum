@@ -49,6 +49,7 @@ Also available at [awesome-reticulum.net](https://awesome-reticulum.net)
 * [strijar / RNS-Gate](https://github.com/strijar/RNS-Gate) - Standalone device for access and routing within the Reticulum Network Stack.
 * [gretel / reticulum-openwrt](https://github.com/gretel/reticulum-openwrt) - GitHub workflow for cross-compiling Reticulum Network Stack (RNS) packages for OpenWrt.
 * [e2ret / NOEMA-RNSGate-Lite](https://github.com/e2ret/NOEMA-RNSGate-Lite) - A Reticulum mesh gateway combining LoRa (RNode), an LXMF↔MQTT bridge for Home Assistant, I2P tunneling, and a NomadNet node, all managed through a web dashboard without SSH.
+* [e2ret / NOEMA-RNSGate-FULL](https://github.com/e2ret/NOEMA-RNSGate-FULL) - A full-featured Reticulum mesh gateway with an integrated RNS stack, LoRa (RNode), LXMF↔MQTT bridge for Home Assistant, I2P tunneling, NomadNet node, built-in P2P chat, and a web dashboard with a terminal, node tracker, and live interface management.
 
 ## Messengers and Browsers
 
